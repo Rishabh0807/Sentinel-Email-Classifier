@@ -1,6 +1,6 @@
 import pandas as pd
 # 1. Load data (use the path where you uploaded the csv)
-df = pd.read_csv('spam.csv', encoding='latin-1')
+
 
 # 2. Drop useless columns often found in this dataset
 df = df.drop(['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'], axis=1)
